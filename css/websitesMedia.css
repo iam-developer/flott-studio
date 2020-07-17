@@ -80,6 +80,16 @@
     .header__title {
         width: 580px;
     }
+    .landing__img2, .landing__img1 {
+        display: none;
+    }
+    .landing__img3 {
+        position: relative;
+        top: 0;
+        right: 0;
+        left: 50%;
+        transform: translate(-50%);
+    }
 }
 @media screen and (max-width: 767px) {
     .padding__top {
@@ -177,6 +187,7 @@
 @media screen and (max-width: 451px) {
     .results__block {
         padding: 15px 0;
+        max-width: 300px;
     }
     .get__tz__btn {
         font-size: 22px;
