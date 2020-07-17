@@ -180,6 +180,9 @@
     .header__title {
         width: 350px;
     }
+    #headercommit {
+        height: 100vh;
+    }
 }
 @media screen and (max-width: 451px) {
     .results__block {
@@ -189,7 +192,6 @@
     .get__tz__btn {
         font-size: 22px;
         line-height: 22px;
-        margin-top: 80px;
     }
 }
 @media screen and (max-width: 385px) {
@@ -198,10 +200,5 @@
     }
     .tct {
         padding-top: 150px;
-    }
-}
-@media screen and (max-width: 360px) {
-    .get__tz__btn {
-        margin-top: 50px;
     }
 }
