@@ -73,10 +73,10 @@
             </div>
         </div>
         <div class="col-12 col-md-12 col-sm-12 col-12 container tct">
-            <div class="header__title">
+            <div class="header__title wow fadeInLeft" data-wow-duration="2s">
                 За 14 дней сделаем лендинг, который увеличит количество заказов на 50-390%
             </div>
-            <button class="get__tz__btn">Получить тз для <br>разработку сайта</button>
+            <button class="get__tz__btn wow fadeInLeft" data-wow-duration="4s">Получить тз для <br>разработку сайта</button>
         </div>
     </section>
 </header>
@@ -84,61 +84,136 @@
 <section id="prices">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-lg-3 col-md-3 col-sm-6 col-9">
-                <div class="prices__category active">#Landing Page</div>
+            <div class="col-lg-3 col-md-3 active col-sm-6 col-9 btn landing" onclick="showLanding()">
+                <div class="prices__category">#Landing Page</div>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-6 col-9">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-9 btn vizitka" onclick="showVizitka()">
                 <div class="prices__category">#Сайт-визитка</div>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-6 col-9">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-9 btn corporative" onclick="showCorporative()">
                 <div class="prices__category padding__top">#Корпоративный сайт</div>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-6 col-9">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-9 btn store" onclick="showStore()">
                 <div class="prices__category padding__top">#Интернет магазин</div>
             </div>
         </div>
         <div class="row price__container">
             <div class="col-lg-4 col-md-6 col-sm-10 col-12">
-                <div class="price__block">
+                <div class="price__block wow fadeIn"data-wow-offset="2" data-wow-duration="1.5s">
                     <div class="price__block__item">
                         <div class="price__block__title">Start</div>
-                        <div class="price__block__txt">
+                        <div class="price__block__txt start__txt">
                             -- Одностраничный<br>-Cайта с помощью<br>шаблон wordpress<br>-”Продающий” веб сайт
         <br>-Адаптивный дизайн<br>-Обратный связ с сайта<br>-Руководство по администрированию  сайтом
         <br>-Система управления сайтом<br>-Наполнение контента<br>(предоставленная информация)
         <br>-Регистпация в поисковиках<br>-Домен и хостинг на 6 месяц<br>-Техническая поддержка 2 месяцев 
                         </div>
-                        <div class="price">169$</div>
+                        <div class="price__block__txt start__txt">
+                            -- Информационный веб-сайт для компании<br>-Cайта с помощью шаблон wordpress
+        <br>-”Продающий” веб сайт<br>-Адаптивный дизайн<br>-Обратный связ с сайта<br>-Количество страниц - до 5
+        <br>-Руководство по<br>администрированию сайтом<br>-Система управления сайтом<br>-Наполнение контента 
+        <br>(предоставленная информация)<br>-Регистпация в поисковиках<br>-Домен и хостинг на 6 месяц 
+        <br>-Техническая поддержка 2 месяцев 
+                        </div>
+                        <div class="price__block__txt start__txt">
+                            -- Многостраничный сайт с информацией о предоставляемых услугах/товарах в коммерческих целях
+        <br>-Cайта с помощью шаблон wordpress<br>-”Продающий” веб сайт<br>-Адаптивный дизайн<br>-Обратный связ с сайта
+        <br>-Возможность авторизации для пользователя<br>-Руководство по<br>администрированию  сайтом
+        <br>-Система управления сайтом<br>-Наполнение контента<br>(предоставленная информация)<br>-Регистпация в поисковиках
+        <br>-Домен и хостинг на 6 месяц<br>-Техническая поддержка 2 месяцев  
+                        </div>
+                        <div class="price__block__txt start__txt">
+                            -- Интернет магазин<br>-Cайта с помощью шаблон wordpress<br>-”Продающий” веб сайт
+        <br>-Адаптивный дизайн<br>-Обратный связ с сайта<br>-Возможность авторизации<br>для пользователя 
+        <br>-Руководство по<br>администрированию сайтом<br>-Система управления сайтом<br>Размещение до 5000 товаров
+        <br>(можно увеличить до 50 000)<br>-Наполнение контента<br>(предоставленная информация)<br>-Регистпация в поисковиках
+        <br>-Домен и хостинг на 6 месяц<br>-Техническая поддержка 2 месяцев 
+                        </div>
+                        <div class="price start">169$</div>
+                        <div class="price start">229$</div>
+                        <div class="price start">349$</div>
+                        <div class="price start">549$</div>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-10 col-12">
-                <div class="price__block">
+                <div class="price__block wow fadeIn"data-wow-offset="2" data-wow-duration="2.5s">
                     <div class="price__block__item">
                         <div class="price__block__title">Standart</div>
-                        <div class="price__block__txt">
+                        <div class="price__block__txt standart__txt">
     -- Одностраничный<br>-Сайт с нуля на чистом коде<br>-Уникальный дизайн 
 <br>-”Продающий” веб сайт<br>-Адаптивный дизайн<br>-Руководство по администрированию
  сайтом<br>--Система управления сайтом<br>-Анализ конкурентов<br>-Анализ ЦА<br>-Обратный связ с сайта 
-<br>-Наполнение контента<br>(предоставленная информация<br>-Регистпация в поисковиках<br>-Домен и хостинг на год
+<br>-Наполнение контента<br>(предоставленная информация)<br>-Регистпация в поисковиках<br>-Домен и хостинг на год
 <br>-Техническая поддержка 6 месяцев 
                         </div>
-                        <div class="price">269$</div>
+                        <div class="price__block__txt standart__txt">
+    -- Информационный веб-сайт<br>для компании<br>-Сайт с нуля на чистом коде<br>-Уникальный дизайн 
+<br>-”Продающий” веб сайт<br>-Адаптивный дизайн<br>-Руководство по<br>администрированию сайтом
+<br>--Система управления сайтом<br>-Анализ конкурентов<br>-Анализ ЦА<br>-Обратный связ с сайта<br>-Количество страниц - до 5
+<br>-Наполнение контента<br>(предоставленная информация)<br>-Регистпация в поисковиках
+<br>-Домен и хостинг на год<br>-Техническая поддержка 6 месяцев 
+                        </div>
+                        <div class="price__block__txt standart__txt">
+    -- Многостраничный сайт<br>с информацией о предоставляемых<br>услугах/товарах в<br>коммерческих целях
+<br>-Сайт с нуля на чистом коде<br>-Уникальный дизайн<br>-”Продающий” веб сайт<br>-Адаптивный дизайн
+<br>-Руководство по <br>администрированию сайтом<br>--Система управления сайтом<br>-Анализ конкурентов 
+<br>-Анализ ЦА<br>-Обратный связ с сайта<br>-Возможность авторизации для пользователя<br>-Наполнение контента 
+<br>(предоставленная информация)<br>-Регистпация в поисковиках<br>-Домен и хостинг на год<br>-Техническая поддержка 6 месяцев 
+                        </div>
+                        <div class="price__block__txt standart__txt">
+    -- Интернет магазин<br>-Сайт с нуля на чистом коде<br>-Уникальный дизайн<br>-”Продающий” веб сайт<br>-Адаптивный дизайн
+<br>-Руководство по<br>администрированию сайтом<br>--Система управления сайтом<br>-Анализ конкурентов 
+<br>-Анализ ЦА<br>-Обратный связ с сайта<br>-Размещение до 5000 товаров<br>(можно увеличить до 50 000)
+<br>-Возможность авторизации<br>для пользователя<br>-Наполнение контента<br>(предоставленная информация
+<br>-Регистпация в поисковиках<br>-Домен и хостинг на год<br>-Техническая поддержка 6 месяцев 
+                        </div>
+                        <div class="price standart">269$</div>
+                        <div class="price standart">479$</div>
+                        <div class="price standart">549$</div>
+                        <div class="price standart">839$</div>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-10 col-12">
-                <div class="price__block">
+                <div class="price__block wow fadeIn"data-wow-offset="2" data-wow-duration="3.5s">
                     <div class="price__block__item">
                         <div class="price__block__title">VIP</div>
-                        <div class="price__block__txt">
+                        <div class="price__block__txt vip__txt">
     -- Одностраничный<br>-Сайт с нуля на чистом коде<br>-Уникальный дизайн<br>-”Продающий” веб сайт
 <br>-Адаптивный дизайн<br>-Обратный связ с сайта<br>-Система управления сайтом<br>-Руководство по <br>администрированию сайтом
 <br>-Анализ конкурентов<br>-Анализ ЦА<br>-Разработка логотипа<br>-Дизайн постов  соц сети<br>-Услуга коперайтера 
 <br>-Наполнение контента<br>(предоставленная информация)<br>-Регистпация в поисковиках
 <br>-Домен и хостинг на год<br>-Техническая поддержка год<br>-Реклама
                         </div>
-                        <div class="price">469$</div>
+                        <div class="price__block__txt vip__txt">
+    -- Информационный веб-сайт<br>для компании<br>-Сайт с нуля на чистом коде<br>-Уникальный дизайн 
+<br>-”Продающий” веб сайт<br>-Адаптивный дизайн<br>-Обратный связ с сайта<br>-Количество страниц - до 5
+<br>-Система управления сайтом<br>-Руководство по<br>администрированию<br>сайтом
+<br>-Анализ конкурентов<br>-Анализ ЦА<br>-Разработка логотипа<br>-Дизайн постов  соц сети<br>-Услуга коперайтера 
+<br>-Наполнение контента<br>(предоставленная информация)<br>-Регистпация в поисковиках<br>-Домен и хостинг на год
+<br>-Техническая поддержка год<br>-Реклама
+                        </div>
+                        <div class="price__block__txt vip__txt">
+    -- Многостраничный сайт<br>с информацией о предоставляемых<br>услугах/товарах в<br>коммерческих целя
+<br>-Сайт с нуля на чистом коде<br>-Уникальный дизайн<br>-”Продающий” веб сайт<br>-Адаптивный дизайн
+<br>-Обратный связ с сайта<br>-Возможность авторизации для пользователя<br>-Система управления сайтом
+<br>-Руководство по<br>администрированию сайтом<br>-Анализ конкурентов<br>-Анализ ЦА<br>-Разработка логотипа
+<br>-Дизайн постов соц сети<br>-Услуга коперайтера<br>-Наполнение контента<br>(предоставленная информация)
+<br>-Регистпация в поисковиках<br>-Домен и хостинг на год<br>-Техническая поддержка год<br>-Реклама
+                        </div>
+                        <div class="price__block__txt vip__txt">
+    -- Интернет магазин<br>-Сайт с нуля на чистом коде<br>-Уникальный дизайн<br>-”Продающий” веб сайт<br>-Адаптивный дизайн
+<br>-Обратный связ с сайта<br>-Возможность авторизации<br>для пользователя<br>-Система управления сайтом
+<br>-Размещение до 5000 товаров<br>(можно увеличить до 50 000)<br>-Руководство по<br>администрированию сайтом
+<br>-Анализ конкурентов<br>-Анализ ЦА<br>-Разработка логотипа<br>-Дизайн постов  соц сети<br>-Услуга коперайтера 
+<br>-Наполнение контента<br>(предоставленная информация)<br>-Регистпация в поисковиках<br>-Домен и хостинг на год
+<br>-Техническая поддержка год<br>-Реклама
+                        </div>
+                        <div class="price vip">469$</div>
+                        <div class="price vip">759$</div>
+                        <div class="price vip">899$</div>
+                        <div class="price vip">1369$</div>
                     </div>
                 </div>
             </div>
@@ -153,29 +228,74 @@
         </div>
         <div class="row quat">
             <div class="col-lg-9 col-md-12 col-sm-12 col-12">
-                <div class="quation__title__block d-flex align-items-center">
+                <div class="quation__title__block d-flex align-items-center wow slideInLeft" data-wow-duration="2s">
                     <div class="red__square"></div>
-                    <div class="quation__title">
+                    <div class="quation__title landing-title">
                         Что такое Landing Page?
                     </div>
+                    <div class="quation__title landing-title">
+                        Что такое Сайт-Визитка?
+                    </div>
+                    <div class="quation__title landing-title">
+                        Что такое Корпоративный сайт?
+                    </div>
+                    <div class="quation__title landing-title">
+                        Что такое Интернет магазин?
+                    </div>
                 </div>
-                <p class="quation__txt">
+                <p class="quation__txt landing-txt wow slideInLeft" data-wow-duration="2s">
                     Landing Page - это посадочная страница под конкретный товар или услугу, показывающая основные
          преимущества: обзор, отзывы, акции и убеждает человека сделать онлайн заказ или позвонить конкретно сейчас. 
     Такие страницы рассчитаны на горячие продажи, пока человек под впечатлением. Эффективный инструмент для сбора лидов.
                 </p>
-                <div class="quation__title__block d-flex align-items-center">
+                <p class="quation__txt landing-txt">
+                    Сайт-Визитка – это сайт небольшого объема, который представляет продукт или бизнес в интернете. 
+        Он, как правило, состоит из одной или нескольких страниц и включает в себя главную мысль и информацию о компании:
+         товар или услуга, прайс-лист, контакты, род деятельности.
+                </p>
+                <p class="quation__txt landing-txt">
+                    Корпоративный сайт — это объемный, высокотехнологичный интернет-ресурс компании, который может 
+        использоваться для любых рекламных, коммерческих и информационных целей. В то же время, корпоративный сайт 
+        может выполнять функции промо-сайта или сайта-визитки, рекламировать определенный товар или услугу.
+                </p>
+                <p class="quation__txt landing-txt">
+                    Для интернет-магазина характерны такие элементы, как «Корзина», «Каталог товаров», «Поиск по 
+        каталогу», «Подбор товаров по параметрам» и др. Также практически неотъемлемой частью интернет-магазина
+         является встроенный модуль взаимодействия с платежными системами, например, «QIWI» или «PayPal».
+                </p>
+                <div class="quation__title__block d-flex align-items-center wow slideInLeft" data-wow-duration="3s">
                     <div class="red__square"></div>
-                    <div class="quation__title">
+                    <div class="quation__title landing-title2">
                         Как быстро можно разработать Landing Page?
                     </div>
+                    <div class="quation__title landing-title2">
+                        Как быстро можно разработать Сайт-визитка?
+                    </div>
+                    <div class="quation__title landing-title2">
+                        Как быстро можно разработать Корпоративный сайт?
+                    </div>
+                    <div class="quation__title landing-title2">
+                        Как быстро можно разработать Интернет магазин?
+                    </div>    
                 </div>
-                <p class="quation__txt">
-                    Срок разработки Landing Page обычно занимает от 5 дней до 1-го месяца, в зависимости от сложности
-         дизайна, программирования, количества предоставленной информации, креативного подхода и многих других факторов.
+                <p class="quation__txt landing-txt2 wow slideInLeft" data-wow-duration="3s">
+                    Срок разработки Landing Page обычно занимает от 5 дней до 1-го месяца, в зависимости от сложности дизайна,
+                 программирования, количества предоставленной информации, креативного подхода и многих других факторов.
+                </p>
+                <p class="quation__txt landing-txt2">
+                    Срок создания сайта зависит от сложности проекта. <br>Ориентировочные сроки на разработку <br>веб-ресурсов с 
+                оригинальным дизайном <br>12-15 дней.
+                </p>
+                <p class="quation__txt landing-txt2">
+                    Срок создания сайта зависит от сложности проекта. Ориентировочные сроки на разработку веб-ресурсов 
+                    с оригинальным дизайном  18-20 дней.
+                </p>
+                <p class="quation__txt landing-txt2">
+                    Срок создания интернет магазина зависит от сложности проекта. Ориентировочные сроки на разработку веб-ресурсов
+                     с оригинальным дизайном  25-30 дней.
                 </p>
             </div>
-            <div class="col-lg-3 col-md-12 col-sm-12 col-12 text-center">
+            <div class="col-lg-3 col-md-12 col-sm-12 col-12 text-center wow bounceInRight" data-wow-duration="2s">
                 <img src="img/quations.png" alt="" class="quation__img">
             </div>
         </div>
@@ -185,14 +305,14 @@
 <section id="results">
     <div class="container">
         <div class="col-lg-12 col-sm-12 col-12">
-            <div class="my__title">КАК ДОСТИГАЕТСЯ РЕЗУЛЬТАТ?</div>
-            <p class="results__txt">
+            <div class="my__title wow fadeIn" data-wow-duration="2s">КАК ДОСТИГАЕТСЯ РЕЗУЛЬТАТ?</div>
+            <p class="results__txt wow fadeIn" data-wow-duration="3s">
                 Проектируем удобный интерфейс, рисуем дизайн, внедряем креативные фичи, программируем, интегрируем, 
         тестируем, запускаем, анализируем результат, вносим корректировки и получаем хороший, работающие проект!
             </p>
         </div>
         <div class="row justify-content-center">
-            <div class="results__block">
+            <div class="results__block wow fadeIn" data-wow-duration="1s">
                 <div class="results__img">
                     <img src="img/issledovanie.png" alt="">
                 </div>
@@ -201,7 +321,7 @@
                     Проводится анализ рынка. Мониторинг всех возможных конкурентов.
                 </div>
             </div>
-            <div class="results__block">
+            <div class="results__block wow fadeIn" data-wow-duration="1.5s">
                 <div class="results__img">
                     <img src="img/podacha.png" alt="">
                 </div>
@@ -210,7 +330,7 @@
                     Используется только самая важная и точная информация для построения страницы.
                 </div>
             </div>
-            <div class="results__block">
+            <div class="results__block wow fadeIn" data-wow-duration="2s">
                 <div class="results__img">
                     <img src="img/design.png" alt="">
                 </div>
@@ -219,7 +339,7 @@
                     Разрабатывается индивидуальный дизайн в соответствии с тематикой товара или услуги.
                 </div>
             </div>
-            <div class="results__block">
+            <div class="results__block wow fadeIn" data-wow-duration="2.5s">
                 <div class="results__img">
                     <img src="img/razrabotka.png" alt="">
                 </div>
@@ -228,7 +348,7 @@
                     Внедряются самые последние стандарты. Сайт будет максимально быстро и корректно работать во всех браузерах
                 </div>
             </div>
-              <div class="results__block">
+              <div class="results__block wow fadeIn" data-wow-duration="3s">
                 <div class="results__img">
                     <img src="img/testirovanie.png" alt="">
                 </div>
@@ -243,13 +363,13 @@
 
 <section id="landings">
     <div class="row landing__img__container">
-        <div class="col-lg-4 no__padding">
+        <div class="col-lg-4 no__padding wow bounceInLeft" data-wow-duration="1.5s">
             <img src="img/landing1.png" alt="" class="landing__img1 img-fluid">
         </div>
-        <div class="col-lg-4 no__padding">
+        <div class="col-lg-4 no__padding wow bounceInRight" data-wow-duration="2.5s">
             <img src="img/landing2.png" alt="" class="landing__img2 img-fluid">
         </div>
-        <div class="col-lg-4 no__padding">
+        <div class="col-lg-4 no__padding wow bounceInRight" data-wow-duration="3.5s">
             <img src="img/landing3.png" alt="" class="landing__img3 img-fluid">
         </div>
     </div>
@@ -281,6 +401,9 @@
     <!-- ============ JS ============= -->
     <script src="js/jquery.js"></script>
     <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
     <script src="js/main.js"></script>
 </body>
 </html>
