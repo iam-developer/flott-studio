@@ -240,7 +240,7 @@ for(let i = 0; i < landingTxt2.length; i ++) {
   var swiper = new Swiper('.swiper-container', {
     effect: 'coverflow',
     grabCursor: true,
-    centeredSlides: true,
+    centeredSlides: false,
     slidesPerView: 'auto',
     coverflowEffect: {
       rotate: 50,
