@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="FontAwesome/css/all.min.css">
     <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/websites.css">
     <link rel="stylesheet" href="css/websitesMedia.css">
     <title>Разработка веб-сайтов</title>
@@ -263,7 +264,7 @@
         каталогу», «Подбор товаров по параметрам» и др. Также практически неотъемлемой частью интернет-магазина
          является встроенный модуль взаимодействия с платежными системами, например, «QIWI» или «PayPal».
                 </p>
-                <div class="quation__title__block d-flex align-items-center wow slideInLeft" data-wow-duration="3s">
+                <div class="quation__title__block d-flex align-items-center wow slideInLeft" data-wow-duration="2s">
                     <div class="red__square"></div>
                     <div class="quation__title landing-title2">
                         Как быстро можно разработать Landing Page?
@@ -278,7 +279,7 @@
                         Как быстро можно разработать Интернет магазин?
                     </div>    
                 </div>
-                <p class="quation__txt landing-txt2 wow slideInLeft" data-wow-duration="3s">
+                <p class="quation__txt landing-txt2 wow slideInLeft" data-wow-duration="2s">
                     Срок разработки Landing Page обычно занимает от 5 дней до 1-го месяца, в зависимости от сложности дизайна,
                  программирования, количества предоставленной информации, креативного подхода и многих других факторов.
                 </p>
@@ -362,16 +363,15 @@
 </section>
 
 <section id="landings">
-    <div class="row landing__img__container">
-        <div class="col-lg-4 no__padding wow bounceInLeft" data-wow-duration="1.5s">
-            <img src="img/landing1.png" alt="" class="landing__img1 img-fluid">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide" style="background-image:url(../img/landing1.png)"></div>
+          <div class="swiper-slide" style="background-image:url(../img/landing2.png)"></div>
+          <div class="swiper-slide" style="background-image:url(../img/landing3.png)"></div>
+          <div class="swiper-slide" style="background-image:url(../img/landing4.png)"></div>
+          <div class="swiper-slide" style="background-image:url(../img/landing5.png)"></div>
         </div>
-        <div class="col-lg-4 no__padding wow bounceInRight" data-wow-duration="2.5s">
-            <img src="img/landing2.png" alt="" class="landing__img2 img-fluid">
-        </div>
-        <div class="col-lg-4 no__padding wow bounceInRight" data-wow-duration="3.5s">
-            <img src="img/landing3.png" alt="" class="landing__img3 img-fluid">
-        </div>
+        <div class="swiper-pagination"></div>
     </div>
 </section>
 
@@ -400,10 +400,11 @@
 </section>
     <!-- ============ JS ============= -->
     <script src="js/jquery.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="js/wow.min.js"></script>
     <script>
         new WOW().init();
-    </script>
+    </script>   
     <script src="js/main.js"></script>
 </body>
 </html>

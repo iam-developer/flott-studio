@@ -80,16 +80,6 @@
     .header__title {
         width: 580px;
     }
-    .landing__img2, .landing__img1 {
-        display: none;
-    }
-    .landing__img3 {
-        position: relative;
-        top: 0;
-        right: 0;
-        left: 50%;
-        transform: translate(-50%);
-    }
 }
 @media screen and (max-width: 767px) {
     .padding__top {

@@ -236,3 +236,20 @@ for(let i = 0; i < landingTxt2.length; i ++) {
           block[2].classList.add("wow", "fadeIn");
       new WOW().init();
   }
+
+  var swiper = new Swiper('.swiper-container', {
+    effect: 'coverflow',
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: 'auto',
+    coverflowEffect: {
+      rotate: 50,
+      stretch: 0,
+      depth: 100,
+      modifier: 1,
+      slideShadows: true,
+    },
+    pagination: {
+      el: '.swiper-pagination',
+    },
+  });
