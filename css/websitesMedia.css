@@ -118,6 +118,9 @@
         padding-right: 25px;
         top: -43px;
     }
+    .swiper-slide {
+        height: 600px;
+      }
     .menu__item a {
         font-size: 18px;
     }
